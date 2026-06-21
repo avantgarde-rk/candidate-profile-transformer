@@ -1,0 +1,11 @@
+{
+  "candidateName": "Rakesh",
+  "candidateEmail": "rakesh@gmail.com",
+  "candidatePhone": "9876543210",
+
+  "location": {
+    "city": "Chennai",
+    "region": "Tamil Nadu",
+    "country": "India"
+  }
+}

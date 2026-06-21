@@ -1,0 +1,11 @@
+Rakesh R
+
+Email: rakesh@gmail.com
+
+Phone: 9876543210
+
+Skills:
+Python
+Java
+React
+AWS
