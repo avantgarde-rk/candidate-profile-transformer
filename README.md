@@ -235,6 +235,14 @@ Example:
 }
 ```
 
+The projection layer supports:
+
+- Field selection
+- Field remapping
+- Confidence inclusion/exclusion
+- Provenance inclusion/exclusion
+- Missing value handling (null / omit / error)
+
 ---
 
 # Installation
@@ -242,7 +250,7 @@ Example:
 ## Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/avantgarde-rk/candidate-profile-transformer.git
 cd candidate-transformer
 ```
 
@@ -341,10 +349,14 @@ All tests completed successfully.
 ### Default Run
 
 ```bash
-python main.py --ats data/ats/sample_ats.json  --resume data/resumes/RakeshResume.pdf --csv data/recruiter/sample_recruiter.csv --config configs/custom_config.json
+python main.py --ats data/ats/sample_ats.json --resume data/resumes/RakeshResume.pdf --csv data/recruiter/sample_recruiter.csv --config configs/custom_config.json
+```
 
 ### Run with Custom ATS
+
+```bash
 python main.py --ats my_ats.json --resume my_resume.pdf --csv my_recruiter.csv --config configs/custom_config.json
+```
 
 # Edge Cases Covered
 
