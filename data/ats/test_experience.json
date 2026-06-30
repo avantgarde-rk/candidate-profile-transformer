@@ -1,0 +1,24 @@
+{
+  "candidateName": "Rakesh R",
+  "candidateEmail": "rakesh@example.com",
+  "candidatePhone": "9876543210",
+  "jobTitle": "Frontend Intern",
+  "skills": ["Python"],
+  "experience": [
+    {
+      "company": "Ippopay Technologies",
+      "title": "Frontend Intern",
+      "start": "July 2024",
+      "end": "Jan 2025",
+      "summary": "Worked on frontend development and payment dashboard features"
+    }
+  ],
+"education": [
+  {
+    "institution": "Sri Sairam Engineering College",
+    "degree": "M.Tech Integrated",
+    "field": "Computer Science and Engineering",
+    "end_year": 2027
+  }
+]
+}

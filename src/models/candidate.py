@@ -75,7 +75,13 @@ class RawCandidate(BaseModel):
     emails: List[str] = Field(default_factory=list)
     phones: List[str] = Field(default_factory=list)
     skills: List[str] = Field(default_factory=list)
+
     location: Optional[Location] = None
+    links: Optional[Links] = None
+
+    experience: List[Experience] = Field(default_factory=list)
+    education: List[Education] = Field(default_factory=list)
+    
     current_company: Optional[str] = None
     current_title: Optional[str] = None
     source: str

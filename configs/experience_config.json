@@ -1,0 +1,35 @@
+{
+  "fields": [
+    {
+      "path": "candidate_name",
+      "from": "full_name"
+    },
+    {
+      "path": "primary_email",
+      "from": "emails[0]"
+    },
+    {
+      "path": "primary_phone",
+      "from": "phones[0]"
+    },
+    {
+      "path": "experience",
+      "from": "experience"
+    },
+    {
+    "path": "education",
+    "from": "education"
+    },
+    {
+    "path": "headline",
+    "from": "headline"
+    },
+    {
+    "path": "years_experience",
+    "from": "years_experience"
+    }
+  ],
+  "include_confidence": true,
+  "include_provenance": true,
+  "on_missing": "null"
+}

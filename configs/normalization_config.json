@@ -1,0 +1,20 @@
+{
+  "fields": [
+    {
+      "path": "candidate_name",
+      "from": "full_name"
+    },
+    {
+      "path": "primary_email",
+      "from": "emails[0]"
+    },
+    {
+      "path": "phone",
+      "from": "phones[0]",
+      "normalize": "E164"
+    }
+  ],
+  "include_confidence": false,
+  "include_provenance": false,
+  "on_missing": "null"
+}
